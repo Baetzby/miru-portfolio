@@ -11,7 +11,7 @@
       --sand: #D9CDB8;
       --linen: #EDE8DF;
       --stone: #9E9E90;
-      --dark: #141414;
+      --dark: #262E28;
       --sans: 'DM Sans', sans-serif;
     }
 
@@ -237,6 +237,8 @@
       letter-spacing: 0.025em;
       position: relative;
       z-index: 1;
+      word-break: keep-all;
+      overflow-wrap: break-word;
     }
 
     /* ── PRODUCT LINE ─────────────────────────── */
@@ -453,6 +455,8 @@
       opacity: 0.82;
       line-height: 2;
       letter-spacing: 0.02em;
+      word-break: keep-all;
+      overflow-wrap: break-word;
     }
 
     .story-strip {
@@ -623,6 +627,7 @@
       /* Statement */
       #statement { padding: 80px 28px; }
       .statement-bg-mark { font-size: 52vw; }
+      .statement-body { text-align: left; }
 
       /* Products */
       #products { grid-template-columns: 1fr; }
@@ -635,6 +640,7 @@
       .gallery-item { aspect-ratio: 1; }
       .gallery-item.wide { grid-column: span 2; aspect-ratio: 2 / 1; }
       .gallery-item.full { grid-column: span 2; aspect-ratio: 2 / 1; }
+      .gallery-item.mobile-wide { grid-column: span 2; aspect-ratio: 2 / 1; }
 
       /* Story */
       #formula { padding: 80px 28px 0; }
@@ -771,7 +777,7 @@
         <img src="FLOW download MILU/다른_각도로_촬영_202606011716.jpeg" alt="">
       </div>
       <!-- Row 3: 1col + 2col -->
-      <div class="gallery-item fade-in">
+      <div class="gallery-item mobile-wide fade-in">
         <img src="FLOW download MILU/소품_활용_연출샷_202606011716_3.jpeg" alt="">
       </div>
       <div class="gallery-item wide fade-in delay-1">
